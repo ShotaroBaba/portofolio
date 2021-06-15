@@ -1,0 +1,32 @@
+version: '3.3'
+
+services:
+  https-portal:
+    image: steveltn/https-portal:1
+    ports:
+      - '80:80'
+      - '443:443'
+    links:
+      - webserver
+    restart: always
+    environment:
+      STAGE: 'production' 
+      DOMAINS: '[${ALLOWED_IP}] bshotaro.com-> http://webserver:80'
+    volumes:
+      - /data/ssl_certs:/var/lib/https-portal
+      
+  webserver:
+    build:
+      context: ./php_dock
+    container_name: 'php_apache'
+    restart: 'unless-stopped'
+    volumes:
+      - ./www:/var/www/html
+      - ./config/php/php.ini:/usr/local/etc/php/php.ini
+      - ./config/vhosts:/etc/apache2/sites-enabled
+      - ./logs/apache2:/var/log/apache2
+    environment:
+      APACHE_DOCUMENT_ROOT: /var/www/html
+    
+volumes:
+  https-portal-data:
