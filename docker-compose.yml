@@ -11,7 +11,7 @@ services:
     restart: always
     environment:
       STAGE: 'production' 
-      DOMAINS: '[${ALLOWED_IP}] bshotaro.com-> http://webserver:80'
+      DOMAINS: 'bshotaro.com-> http://webserver:80'
     volumes:
       - /data/ssl_certs:/var/lib/https-portal
       
