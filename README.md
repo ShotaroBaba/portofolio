@@ -1,5 +1,5 @@
-# portofolio
-My portofolio website
+# Portofolio
+My portofolio website (https://bshotaro.com)
 
 # Source
 Background image: https://www.publicdomainpictures.net/en/view-image.php?image=22769&picture=mount-fuji
