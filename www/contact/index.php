@@ -24,15 +24,14 @@
 <?php include "/var/www/html/.plugins/header.php";?>
   
 <div class="mountain-text">
-  <h1>Shotaro Baba</h1>
-  <br>
-  <h2>Computer Programmer</h2>
+  <h1>Contact</h1>
 </div>
 </div>
 
-<div class="doc-contents"> 
+<div class="doc-contents">
+  Please send a message to the below email if you have a question about or take interest in my profile:<br><br>
   <span class="white-text">
-  I am a computer programmer who is specialized in C, C#, Java, PHP, Python and other programming languages. I have also experience in AWS, Node.js, Vue.js and the rest of state-of-art IT technologies. At the university, I mainly studied programming, particularly natural language processing using LDA and image recognition done by Neural Network and Convolutional Neural Network (CNN). Currently, I am working at a Japanese company, and mainly developing website, system and software.
+    Email: <a href="bshotaro@gmail.com">bshotaro@gmail.com</a>
   </span>
 </div>
 

@@ -20,25 +20,28 @@
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;'>
-
-<?php include "/var/www/html/.plugins/header.php";?>
+<?php include "/var/www/html/.plugins/header.php"; ?>
   
 <div class="mountain-text">
-  <h1>Shotaro Baba</h1>
-  <br>
-  <h2>Computer Programmer</h2>
+  <h1>About Me</h1>
 </div>
 </div>
 
 <div class="doc-contents"> 
   <span class="white-text">
-  I am a computer programmer who is specialized in C, C#, Java, PHP, Python and other programming languages. I have also experience in AWS, Node.js, Vue.js and the rest of state-of-art IT technologies. At the university, I mainly studied programming, particularly natural language processing using LDA and image recognition done by Neural Network and Convolutional Neural Network (CNN). Currently, I am working at a Japanese company, and mainly developing website, system and software.
+  <h2> Programming Experience</h2>
+  <hr/>
+
+  <h2>List of Works</h2>
+  <hr/>
+
   </span>
 </div>
 
 <!-- Footer -->
-
 <?php include "/var/www/html/.plugins/footer.php"; ?>
+
+ 
 
 <!-- Footer -->
 </body>
