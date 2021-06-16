@@ -11,7 +11,7 @@
   <script src="/script/bootstrap.bundle.min.js?v=<?php echo time(); ?>"></script>
   <title>Shotaro Baba</title>
 
-<body class="background-color: gray; color: ">
+<body class="d-flex flex-column min-vh-100 portofolio-body">
 
 <div style='background-image: url("/pics/mount-fuji.jpg");
     background-color: #cccccc;

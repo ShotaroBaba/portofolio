@@ -11,7 +11,7 @@
   <script src="/script/bootstrap.bundle.min.js?v=<?php echo time(); ?>"></script>
   <title>Shotaro Baba</title>
 
-<body class="background-color: gray; color: ">
+<body class="d-flex flex-column min-vh-100 portofolio-body">
 
 <div style='background-image: url("/pics/mount-fuji.jpg");
     background-color: #cccccc;
@@ -26,13 +26,13 @@
 <div class="mountain-text">
   <h1>Shotaro Baba</h1>
   <br>
-  <h2>Computer Programmer</h2>
+  <h2>Software Developer</h2>
 </div>
 </div>
 
 <div class="doc-contents"> 
   <span class="white-text">
-  I am a computer programmer who is specialized in C, C#, Java, PHP, Python and other programming languages. I have also experience in AWS, Node.js, Vue.js and the rest of state-of-art IT technologies. At the university, I mainly studied programming, particularly natural language processing using LDA and image recognition done by Neural Network and Convolutional Neural Network (CNN). Currently, I am working at a Japanese company, and mainly developing website, system and software.
+  I am a computer programmer who is specialized in C, C#, Java, PHP, Python and other programming languages. I have also experience in AWS, Node.js, Vue.js and the rest of state-of-art IT technologies. At the university, I particularly studied programming, such as natural language processing using LDA and image recognition done by Neural Network and Convolutional Neural Network (CNN). Currently, I am working at a Japanese company, and mainly developing website, system and software.
   </span>
 </div>
 

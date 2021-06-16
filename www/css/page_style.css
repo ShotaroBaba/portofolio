@@ -36,3 +36,15 @@ div.doc-contents{
 div.gray-footer{
     background-color:darkslategrey
 }
+
+.portofolio-footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;       
+}
+
+.portofolio-body{
+    background-color:#333333;
+    position: relative;
+}
