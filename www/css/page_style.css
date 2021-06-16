@@ -48,3 +48,7 @@ div.gray-footer{
     background-color:#333333;
     position: relative;
 }
+
+a.break-link{
+    word-wrap:break-word;
+}

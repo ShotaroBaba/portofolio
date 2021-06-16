@@ -50,9 +50,9 @@
   <br><br>
   <h2>List of my Current & Previous Works</h2>
   <hr/>
-  - Time Sheet Manager (<a href="https://github.com/ShotaroBaba/time_sheet">https://github.com/ShotaroBaba/time_sheet</a>) <br>
-  - Machine Learning Programming (<a href="https://github.com/ShotaroBaba/Machine_Learning_Practice">https://github.com/ShotaroBaba/Machine_Learning_Practice</a>) <br>
-  - This portofolio (<a href="https://github.com/ShotaroBaba/portofolio">https://github.com/ShotaroBaba/portofolio</a>)
+  - Time Sheet Manager (<a class="break-link" href="https://github.com/ShotaroBaba/time_sheet">https://github.com/ShotaroBaba/time_sheet</a>) <br>
+  - Machine Learning Programming (<a class="break-link" href="https://github.com/ShotaroBaba/Machine_Learning_Practice">https://github.com/ShotaroBaba/Machine_Learning_Practice</a>) <br>
+  - This portofolio (<a class="break-link" href="https://github.com/ShotaroBaba/portofolio">https://github.com/ShotaroBaba/portofolio</a>)
 
   </span>
 </div>
